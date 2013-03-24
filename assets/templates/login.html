@@ -1,0 +1,15 @@
+{{#student_number}}
+<div class="pull-right">
+    <h3 id="current-user" class="pull-left">{{nick}}</h3>
+    <img id ="current-user-photo" class="brand" src="assets/img/{{nick}}-happy.jpg" height="40" width="40"/>
+    <button id="logout-button" class="btn btn-primary" type="button">Log out</button>
+</div>
+{{/student_number}}
+{{^student_number}}
+<div class="pull-right">
+    <form class="form-inline" id="login-form"><input id="login-student-number" type="text" placeholder="Student Number" value="20100156454">
+        <input id="login-password" type="password" class="input-small" placeholder="Password" value="danny">
+        <button id="login-button" class="btn btn-primary" type="button" >Pasok mems!</button>
+    </form>
+</div>
+{{/student_number}}

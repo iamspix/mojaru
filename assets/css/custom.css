@@ -1,0 +1,94 @@
+/**
+ * All your custom CSS should go into this file
+*/
+
+body {
+    /*    background: #000000 url("assets/img/aemy.jpg") repeat center center;    */
+    background-image: url("../img/back2.png");
+
+}
+
+b.blue{
+    color: #04c;
+    font-weight: normal;
+}
+
+.navbar{
+    border-radius: 0; color: #fff; margin-bottom: 0;
+}
+
+.navbar-inner{border-radius: 0;}
+
+#login-form{margin: 0; padding: 15px 0 0 0;}
+#login-student-number{margin-right: 5px;}
+#login-button{margin-top: 0;}
+#current-user{margin-right: 15px;}
+#logout-button{margin-top: 12px;}
+
+
+
+hr {
+    margin: 2px 0 2px 0;
+}
+
+textarea{
+    height: 50px;
+    resize: none;
+    width: 655px;    
+}
+
+.peoples {
+    background:  no-repeat center center;
+    background-size: contain;
+    box-sizing: border-box;
+    cursor: pointer;    
+    display: block;
+    float: left;    
+    height: 188px; /* 195 px original */
+    opacity: 0.5;
+    position: relative;
+    width: 188px;
+}
+
+.hover-over{
+    background-color: rgba(0,0,0, 0.4);
+    bottom: 0;
+    display: none;
+    height: 50%;
+    position: absolute;
+    width: 100%;
+}
+
+.peoples img{
+    max-height: 100%;
+    max-width: 100%;
+    min-width: 100%;    
+}
+
+.member-name, .check-placeholder{
+    color: white;
+    font-size: 38.5px;
+    line-height: 40px;
+    padding: 5px 2px 0 0;
+    text-rendering: optimizelegibility;
+    text-shadow: 1px 1px #000;
+}
+
+.division-name{
+    color: white;
+    font-size: 24.5px;
+    line-height: 40px;
+    text-rendering: optimizelegibility;
+    text-shadow: 1px 2px #000;
+}
+
+.glowing {
+    text-shadow: 0 0 10px green;
+}
+
+#evaluation {
+    width: 700px; /* SET THE WIDTH OF THE MODAL */
+    margin: -250px 0 0 -310px; /* CHANGE MARGINS TO ACCOMODATE THE NEW WIDTH (original = margin: -250px 0 0 -280px;) */
+
+}
+
